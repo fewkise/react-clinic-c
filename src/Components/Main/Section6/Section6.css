@@ -1,0 +1,20 @@
+.section-six-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    align-self: center;
+    .gallery {
+        display: flex;
+        width: 70%;
+        column-gap: 5px;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        justify-content: space-between;
+        .slider-nav {
+            align-self: flex-start;
+            padding-bottom: 4rem;
+        }
+    }
+}

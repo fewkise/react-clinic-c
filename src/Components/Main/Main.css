@@ -1,6 +1,6 @@
-.mainSec {
+.Main-sec-all {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    row-gap: 150px;
 }

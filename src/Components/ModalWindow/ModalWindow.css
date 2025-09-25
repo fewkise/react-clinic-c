@@ -80,11 +80,7 @@ input:-moz-placeholder {
                 color: white; /* чтобы текст был виден на синем фоне */
             }
 
-            img {
-                height: 30px;
-                width: 20px;
-                object-fit: contain;
-            }
+
 }
         }
     }

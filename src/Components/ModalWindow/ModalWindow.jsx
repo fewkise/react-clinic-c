@@ -16,11 +16,11 @@ const ModalWindow = () => {
         <h2>Запишитесь на курс</h2>
         <p>получите индивидуальные условия обучения</p>
         <ul>
-            <li><form action=""><input type="text" placeholder='Представьтесь' /><img src={imgLogo1} alt="" /></form></li>
-            <li><form action=""><input type="text" placeholder='Ваш Email' /><img src={imgLogo2} alt="" /></form></li>
-            <li><form action=""><input type="text" placeholder='Ваш Телефон' /><img src={imgLogo3} alt="" /></form></li>
-            <li><form action=""><input type="text" placeholder='Выберите курс' /><img src={imgLogo4} alt="" /></form></li>
-            <li><form action=""><input type="text" placeholder='Дата начала' /><img src={imgLogo5} alt="" /></form></li>
+            <li><form action=""><input type="text" placeholder='Представьтесь' /><div><img src={imgLogo1} alt="" /></div></form></li>
+            <li><form action=""><input type="text" placeholder='Ваш Email' /><div><img src={imgLogo2} alt="" /></div></form></li>
+            <li><form action=""><input type="text" placeholder='Ваш Телефон' /><div><img src={imgLogo3} alt="" /></div></form></li>
+            <li><form action=""><input type="text" placeholder='Выберите курс' /><div><img src={imgLogo4} alt="" /></div></form></li>
+            <li><form action=""><input type="text" placeholder='Дата начала' /><div><img src={imgLogo5} alt="" /></div></form></li>
         </ul>
         <button>Записаться</button>
     </div>
