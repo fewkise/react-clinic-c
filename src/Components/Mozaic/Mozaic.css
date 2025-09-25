@@ -1,0 +1,23 @@
+.mozaic-all {
+    display: flex;
+    flex-direction: column;
+}
+.rowmozaic {
+    display: flex;
+    align-items: flex-start;
+}
+.statistics {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
+   span{
+        font-weight: 700;
+        color: #007FDB;
+        font-size: 50px;
+    }
+    p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}

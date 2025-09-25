@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    row-gap: 20px;
+    align-self: left;
+    width: 350px;
+    ul:nth-child(1){
+        width: 50%;
+        padding-bottom: 20px;
+        border-bottom: #0194E6 solid 1px;
+        li:nth-child(2){
+            p{
+                text-align: center;
+                color: #0194E6;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    ul:nth-child(2){
+        align-items: flex-start;
+        border-left: 1px solid #0194E6;
+        padding-left: 40px;
+        padding-right: 40px;
+
+    }
+    ul:nth-child(3){
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: #0194E6 solid 1px;
+        border-top: 1px solid #0194E6;
+        width: 50%;
+        height: auto;
+        row-gap: 26px;
+        li:nth-child(1){
+            p {
+                font-size: 20px;
+                font-weight: bold;
+                color: #636363;
+            }
+        }
+        button {
+            color: white;
+            background-color: #0194E6;
+            border-radius: 10px;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border: 1px solid #0194E6;
+            cursor: pointer;
+            transition: 0.5s;
+            &:hover {
+                background-color: white;
+                color: #0194E6;
+            }
+        }
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: auto;
+        row-gap: 10px;
+        a {
+            color: black;
+            font-weight: 400;
+            transition: 0.5S;
+            &:hover{
+                color: #0194E6;
+            }
+        }
+        li {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            width: auto;
+            column-gap: 10px;
+        }
+    }
+}

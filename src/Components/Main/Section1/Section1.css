@@ -1,0 +1,123 @@
+.section-one {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sectio-one-All {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    row-gap: 20px;
+    flex-direction: column;
+    width: 70%;
+    align-self: center;
+    h3 {
+        color: black;
+    }
+    p{
+        color: black;
+    }
+    .section-one-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .for-grid-sec {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto auto;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+    .for-grid-sec > .grid-card:nth-child(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .for-grid-sec > .grid-card:nth-child(2) {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .for-grid-sec > .grid-card:nth-child(3) {
+        grid-column: 2; 
+        grid-row: 2;
+    }
+
+    .for-grid-sec > .grid-card:nth-child(4) {
+        grid-column: 2; 
+        grid-row: 2;
+    }
+    .for-grid-sec.sec {
+            display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto auto;
+    gap: 5px;
+    }
+    }
+    .for-grid-sec {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto auto;
+    gap: 5px;
+    grid-template-areas: 
+        "card1 card2"
+    }
+
+    .grid-card.second {
+        background-color: #00B7DF;
+    }
+    .grid-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #0194E6;
+        padding: 20px;
+        border-radius: 20px;
+        width: auto;
+        ul {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+            row-gap: 50px;
+            li:nth-child(3){
+                p:nth-child(1){
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+                p:nth-child(2){
+                    font-weight: 500;
+                    font-size: 30px;
+                }
+            }
+            li:nth-child(2){
+                border-bottom: 1px solid white;
+                p {
+                    font-size: 80px;
+                }
+            }
+            li:nth-child(1){
+                p:nth-child(1){
+                    font-weight: 500;
+                    font-size: 22px;
+                    width: 50%;
+                }
+            }
+            li {
+                display: flex;
+                width: auto;
+                column-gap: 60px;
+                justify-content: space-between;
+                p {
+                    color: white;
+                }
+            }
+        }
+    }
