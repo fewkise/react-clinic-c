@@ -14,7 +14,7 @@ const Section6 = () => {
       <section className="section-six-all">
         <div className="gallery">
             <div className="slider-nav">
-                <p>Галерея</p>
+                <p id='nazv-gallery'>Галерея</p>
             </div>
             <div className="photos-top">
                 <img src={galleryPhoto_1} alt="" />
