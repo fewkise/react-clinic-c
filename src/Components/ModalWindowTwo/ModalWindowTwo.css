@@ -1,0 +1,87 @@
+.all-modal {
+    display: flex;
+    flex-direction: column;
+}
+input::placeholder {
+  color: white;
+  opacity: 1; /* чтобы полностью белый был */
+}
+input::-webkit-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+input::-moz-placeholder {
+  color: white;
+  opacity: 1;
+}
+input:-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+input:-moz-placeholder {
+  color: white;
+  opacity: 1;
+}
+.modal-window-all {
+    padding: 40px;
+    background-color: #0194E6;
+    border-radius: 20px;
+    display: flex;
+    height: auto;
+    row-gap: 20px;
+    flex-direction: column;
+            button {
+            color: #0194E6;
+            background-color: white;
+            border-radius: 10px;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border: 1px solid white;
+            cursor: pointer;
+            transition: 0.5s;
+            &:hover {
+            background-color: #0194E6;
+                color: white;
+            }
+        }
+    h2 {
+        color: white;
+    }
+    p {
+        color: white;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+        row-gap: 10px;
+        padding-left: 20px;
+
+        li {
+            list-style: none;
+
+            form {
+            display: flex;
+            width: auto;
+            justify-content: space-between;
+            column-gap: 10px;
+            padding: 10px;
+            border-bottom: 1px solid white;
+
+            input {
+                padding: 10px;
+                border: none;
+                background: transparent;
+                flex-grow: 1; /* чтобы input занимал больше места */
+                color: white; /* чтобы текст был виден на синем фоне */
+            }
+
+
+}
+        }
+    }
+}

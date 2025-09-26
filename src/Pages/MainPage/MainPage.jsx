@@ -9,8 +9,11 @@ const MainPage = () => {
     <div className='MainSection'>
         <div className='main-page'>
         <Header/>
+        <div className="all-mozaic">
         <ModalWindow/>
         <Mozaic/>
+        </div>
+
         </div>
         <div >
             <Main/>

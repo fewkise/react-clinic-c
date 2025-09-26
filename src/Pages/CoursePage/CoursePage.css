@@ -1,0 +1,18 @@
+.courseSection {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    width: 100%;
+    padding-top: 100px;
+    column-gap: 20px;
+}
+.course-page {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    column-gap: 2px;
+}
+.course-page-all {
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
+}
