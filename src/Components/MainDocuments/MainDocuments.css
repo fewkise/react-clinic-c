@@ -1,0 +1,5 @@
+.main-docs-all {
+    display: flex;
+    flex-direction: column;
+    row-gap:200px;
+}

@@ -1,96 +1,144 @@
 .section-five-all {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    align-self: center;
-    li{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 99vw;
+  align-self: center;
+  overflow-x: hidden; /* скрывает скролл */
+  position: relative;
+    li {
         list-style: none;
     }
-    .five-all {
-        display: flex;
-        width: 70%;
-        column-gap: 5px;
-        flex-direction: column;
-        align-items: flex-start;
-        row-gap: 60px;
-        height: auto;
-        justify-content: space-between;
-        #Nazv-five {
-            font-size: 30px;
-            font-weight: 500;
-        }
-        .forBtn-five {
-            button {
-                background-color: #0089ED;
-                color: white;
-                border-radius: 10px;
-                padding-left: 70px;
-                padding-right: 70px;
-                padding-top: 15px;
-                padding-bottom: 15px;
-                border: 1px solid #0089ED;
-                transition: 0.5s;
-                cursor: pointer;
-                &:hover {
-                    color:#0089ED;
-                    background-color: white;
+  .five-all {
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 60px;
+    align-items: flex-start;
+    justify-content: space-between;
 
-                }
-            }
-        }
-        .slider-container {
-            display: flex;
-            width: auto;
-            column-gap: 20px;
-            justify-content: space-around;
-            overflow-x: hidden;
-
-            .slide.first {
-                background-color: #00B7DF ;
-            }
-            .slide {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                background-color: #0194E6;
-                width: 25%;
-                row-gap: 20px;
-                padding: 30px;
-                border-radius: 20px;
-                height: auto;
-                
-                p {
-                    color: white;
-                }
-                ul {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                    height: 100%;
-                    row-gap: 20px;
-                    li {
-                        display: flex;
-                        justify-content: space-between;
-                        width: 100%;
-                    }
-                    li:nth-child(1){
-                        display: flex;
-                        flex-direction: column;
-                        height: auto;
-                        row-gap: 15px;
-                        p{
-                        font-weight: 500;
-                        font-size: 20px;
-                        }
-                    }
-                }
-            }
-        }
-        .slider-nav {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
+    #Nazv-five {
+      font-size: 30px;
+      font-weight: 500;
+      color: black;
     }
+
+    .slider-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 200px;
+
+      button {
+        cursor: pointer;
+        background: #DCEEFF;
+        color: #fff;
+        padding: 5px 10px;
+        border: none;
+        margin: 0 5px;
+        font-size: 14px;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+
+    .slider-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-left: 15%;
+      column-gap: 5px;
+      row-gap: 30px;
+      justify-content: space-between;
+      position: relative;
+
+      
+    }
+
+    .forBtn-five {
+      button {
+        background-color: #0089ED;
+        color: white;
+        border-radius: 10px;
+        padding: 15px 70px;
+        border: 1px solid #0089ED;
+        transition: 0.5s;
+        cursor: pointer;
+
+        &:hover {
+          color: #0089ED;
+          background-color: white;
+        }
+      }
+    }
+  }
+}
+
+.swiper-wrapper {
+  display: flex;
+  width: 100vw;
+  max-width: 100%;
+}
+.slide-five {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        row-gap: 20px;
+        width: 90%;
+
+        background-color: #0194E6;
+        padding: 30px;
+        border-radius: 20px;
+
+        p {
+          color: white;
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+          row-gap: 20px;
+
+          li {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            &:nth-child(1) {
+              flex-direction: row;
+              column-gap: 15px;
+
+              p {
+                font-weight: 500;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+
+        &.first {
+          background-color: #00B7DF;
+        }
+}
+.five-all  {
+    margin-left: 15%;
+}
+.top-slider-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
 }

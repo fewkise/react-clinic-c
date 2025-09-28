@@ -1,0 +1,24 @@
+.information-page-all {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .info-sec-top {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    width: 100%;
+    padding-top: 100px;
+    column-gap: 20px;
+    }
+}
+.for-photos-and-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: space-between;
+    .for-photos {
+        display: flex;
+    }
+}

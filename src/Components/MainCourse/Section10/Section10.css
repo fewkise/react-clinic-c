@@ -1,0 +1,65 @@
+.section-ten {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    align-self: center;
+    li {
+        list-style: none;
+    }
+    .ten-all {
+        display: flex;
+        width: 70%;
+        row-gap: 100px;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        justify-content: space-between;
+        .plane-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            #nazv-ten {
+                font-size: 25px;
+                font-weight: 500;
+                padding-bottom: 3rem;
+                color: #0089ED;
+            }
+            .plane-card {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: auto;
+                width: 100%;
+                align-items: flex-start;
+                row-gap: 20px;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                border-top: 1px solid #80C2FF;
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    height: auto;
+                    row-gap: 10px;
+                    padding-left: 70px;
+                }
+                .plane-top {
+                    display: flex;
+                    width: auto;
+                    column-gap: 50px;
+                    align-items: center;
+                    p:nth-child(1){
+                        color: #80C2FF;
+                        font-size: 30px;
+                        font-weight: 500;
+                    }
+                    p:nth-child(2){
+                        color: black;
+                        font-size: 22px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}

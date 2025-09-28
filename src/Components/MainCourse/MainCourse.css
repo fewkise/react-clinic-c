@@ -1,0 +1,6 @@
+.main-course-all{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    row-gap: 100px;
+}

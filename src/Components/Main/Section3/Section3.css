@@ -2,20 +2,40 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 99vw;
     align-self: center;
+      overflow-x: hidden;  /* скрывает скролл */
+  position: relative;
+    .news {
+        width: 100vw;
+        max-width: 100%;
+    }
     p {
         color: black;
     }
+    .swiper-wrapper {
+        width: 100vw;
+        max-width: 100%;
+    }
+    .top-slider-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+    }
     .slider-container {
         display: flex;
-        width: 70%;
+        width: 100%;
         column-gap: 5px;
         flex-direction: column;
         align-items: flex-start;
         row-gap: 30px;
         height: auto;
+        /* overflow: hidden;  - убрать! */
         justify-content: space-between;
+        position: relative;
+        margin-left: 15%; /* сдвигает блок направо */
+        
         .slides-container {
             display: flex;
             width: auto;
@@ -27,7 +47,7 @@
             flex-direction: column;
             height: auto;
             row-gap: 20px;
-            width: 30%;
+            width: 100%;
             justify-content: space-between;
             .art-name {
                 font-size: 22px;
@@ -56,4 +76,26 @@
             display: flex;
         }
     }
+}
+
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  cursor: pointer;
+  background: #DCEEFF;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  margin: 0 5px;
+  font-size: 14px;
+  border-radius: 3px;
+  position: relative;
+  border-radius: 50%;
+  svg {
+    display: none;
+  }
+}
+.swiper-wrapper {
+    display: flex;
 }

@@ -1,0 +1,33 @@
+.mozaic-course-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .numbers-container {
+        display: grid;
+        align-self: center;
+        grid-template-columns: 33% 33% 33%;
+        column-gap: 2px;
+        justify-content: space-around;
+        row-gap: 2px;
+        .num-card {
+            display: flex;
+            background-color: #DCEEFF;
+            padding: 20px;
+            border-radius: 20px;
+            justify-content: space-between;
+            transition: 0.5s;
+            cursor: pointer;
+            &:hover {
+                background-color: #2596FF;
+                color: white;
+            }
+            p:nth-child(1){
+                font-size: 16px;
+            }
+            p:nth-child(2){
+                color: #80C2FF;
+                font-size: 40px;
+            }
+        }
+    }
+}

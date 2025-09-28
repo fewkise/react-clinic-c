@@ -1,0 +1,85 @@
+.section-twelve {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    align-self: center;
+    li {
+        list-style: none;
+    }
+    .twelve-all {
+        display: flex;
+        width: 70%;
+        row-gap: 100px;
+        align-items: center;
+        height: auto;
+        justify-content: space-between;
+        .twelve-right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .twelve-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            row-gap: 50px;
+            .five-bottom {
+                display: flex;
+                flex-direction: column;
+                row-gap: 50px;
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 18px;
+                    li {
+                        display: flex;
+                        column-gap: 20px;
+                        p:nth-child(1){
+                            color: #80C2FF;
+                            font-size: 25px;
+                        }
+                        p:nth-child(2){
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #0089ED;
+                            span {
+                                font-size: 22px;
+                                font-weight: 500;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                #nazv {
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #0089ED;
+                }
+            }
+            .five-top {
+                align-self: flex-start;
+                display: flex;
+                align-items: center;
+                width: auto;
+                column-gap: 50px;
+                p:nth-child(1){
+                    color: #80C2FF;
+                    font-size: 80px;
+                    font-weight: 300;
+                }
+                p:nth-child(2){
+                    font-size: 30px;
+                    font-weight: 500;
+
+                }
+                span{
+                    color: #0089ED;
+                    font-size: 18px;
+                    font-weight: 500;
+                    width: 70%;
+                } 
+            }
+        }
+    }
+}

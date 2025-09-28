@@ -1,0 +1,23 @@
+.documents-page-all {
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
+}
+.documentSectionTop {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    width: 100%;
+    padding-top: 100px;
+    column-gap: 20px;
+}
+.documentSection {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    column-gap: 2px;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.docs {
+    display: flex;
+}

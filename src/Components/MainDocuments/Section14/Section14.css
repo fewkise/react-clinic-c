@@ -1,0 +1,77 @@
+.section-fourteen {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    align-self: center;
+    li {
+        list-style: none;
+    }
+    .fourteen-all {
+        display: flex;
+        width: 70%;
+        row-gap: 100px;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+    .nazv {
+        align-self: flex-start;
+        p {
+            font-size: 25px;
+            font-weight: 500;
+        }
+    }
+    .polozh-all {
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        .for-grid-polozh {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            row-gap: 20px;
+            column-gap: 50px;
+            .card-grid {
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+                span {
+                    color: #0089ED;
+                    font-weight: 500;
+                }
+                p:nth-child(1){
+                    color: #0089ED;
+                    font-size: 22px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .glav-card-container {
+        display: flex;
+        .glav-card {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            width: 40%;
+            padding-left: 20px;
+            border-left: 1px solid #80C2FF;
+            transition: 0.5s;
+            cursor: pointer;
+            &:hover {
+                background-color: #DCEEFF;
+
+            }
+            p:nth-child(1){
+                color: #80C2FF;
+                font-size: 20px;
+                font-weight: 500;
+            }
+            p:nth-child(2){
+                font-size: 14px;
+            }
+        }
+    }
+}
