@@ -1,0 +1,105 @@
+.section-twenty {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 5px;
+    row-gap: 5px;
+    padding-top: 2rem;
+    .forimg {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .card-dfd {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        height: auto;
+        padding: 30px;
+        border-radius: 30px;
+        background-color: #DCEEFF;
+        p {
+            width: 80%;
+        }
+    }
+}
+
+    li {
+        list-style: none;
+    }
+    #nazv {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: 30px;
+        font-weight: 500;
+        width: 30%;
+    }
+    .for-grid-block {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 33% 33% 33%;
+        row-gap: 2px;
+        column-gap: 5px;
+        .block-card.blue {
+            background-color: #0194E6;
+        }
+        .block-card.green {
+            background-color: #00B7DF;
+        }
+        .block-card {
+            padding: 30px;
+            background-color: #2596FF;
+            border-radius: 30px;
+            ul {
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+                li:nth-child(1){
+                    border-bottom: 1px solid #80C2FF;
+                    padding-bottom: 2rem;
+                    p {
+                        font-weight: 500;
+                    }
+                }
+                li:nth-child(2){
+                    align-self: flex-end;
+                    p {
+                        font-size: 22px;
+                        font-weight: 500;
+                        span {
+                            font-size: 16px;
+                        }
+                    }
+                }
+                li {
+                    display: flex;
+                    justify-content: space-between;
+                    column-gap: 40px;
+                    color: white;
+                }
+            }
+        }
+    }
+.twenty-all {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+.documents {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding-bottom: 5rem;
+    p:nth-child(1){
+        font-size: 25px;
+        font-weight: 500;
+    }
+    p:nth-child(2){
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .documents-three {
+        display: flex;
+        column-gap: 20px;
+        justify-content: space-between;
+    }
+}

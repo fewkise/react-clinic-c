@@ -5,6 +5,9 @@ import CoursePage from './Pages/CoursePage/CoursePage'
 import MainPage from './Pages/MainPage/MainPage'
 import DocumentsPage from './Pages/DocumentsPage/DocumentsPage'
 import InformationPage from './Pages/InformationPage/InformationPage'
+import ReviewsPage from './Pages/ReviewsPage/ReviewsPage'
+import DocumentsForDoctors from './Pages/DocumentsForDoctors/DocumentsForDoctors'
+import CoursesAllPage from './Pages/CoursesAllPage/CoursesAllPage'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,6 +18,9 @@ function App() {
         <Route path='/Course' element={<CoursePage/>}> </Route>
         <Route path='/Documents' element={<DocumentsPage/>}> </Route>
         <Route path='/Info' element={<InformationPage/>}> </Route>
+        <Route path='/Feedback' element={<ReviewsPage/>}> </Route>
+        <Route path='/Clinic' element={<DocumentsForDoctors/>}> </Route>
+        <Route path='/Courses' element={<CoursesAllPage/>}> </Route>
       </Routes>
     
     

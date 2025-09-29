@@ -7,10 +7,6 @@ const Section1 = () => {
   return (
         <div className='section-one'>
             <div className="sectio-one-All">
-        <div className="section-one-top">
-            <h3>Программы дополнительного профессионального образования</h3>
-            <p>Обучение проводится в специализированном классе учебного центра с использованием мультимедийного оборудования и гинекологического кабинета клиники по адресу: г. Краснодар, проспект Чекистов, 42</p>
-        </div>
         <div className="grid-all">
             <div className="for-grid-sec">
             <div className="grid-card">

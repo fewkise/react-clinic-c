@@ -1,0 +1,40 @@
+.section-eighteen {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    align-self: center;
+    .for-revs {
+        display: flex;
+        column-gap: 5px;
+        .for-two {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin-right: 10px;
+            row-gap: 5px;
+            .rev-card {
+                width: 85%;
+            }
+        }
+        .rev-card {
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            background-color: #DCEEFF;
+            border-radius: 30px;
+            row-gap: 15px;
+            height: 100%;
+            width: 30%;
+            .forstars {
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+                p {
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

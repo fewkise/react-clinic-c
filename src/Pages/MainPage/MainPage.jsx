@@ -4,6 +4,7 @@ import Header from '../../Components/Header/Header'
 import ModalWindow from '../../Components/ModalWindow/ModalWindow'
 import Mozaic from '../../Components/Mozaic/Mozaic'
 import Main from '../../Components/Main/Main'
+
 const MainPage = () => {
   return (
     <div className='MainSection'>

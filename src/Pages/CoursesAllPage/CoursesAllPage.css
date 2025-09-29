@@ -1,0 +1,7 @@
+.courses-all {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    width: 100%;
+    padding-top: 50px;
+    column-gap: 20px;
+}

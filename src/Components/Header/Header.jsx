@@ -16,6 +16,7 @@ const Header = () => {
         <ul>
             <Link to='/'> <li>Главная</li> </Link>
             <Link to='/Course'> <li>Курсы</li> </Link>
+            <Link to='/Courses'> <li>Специалисты</li> </Link>
             <Link to='/Equipment'> <li>Оборудование</li> </Link>
             <Link to='/Schedule'> <li>Расписание</li> </Link>
             <Link to='/Feedback'> <li>Отзывы</li> </Link>

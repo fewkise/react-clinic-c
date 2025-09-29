@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     column-gap: 5px;
-    row-gap: 60px;
+    row-gap: 90px;
     align-items: flex-start;
     justify-content: space-between;
 
@@ -29,7 +29,6 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      width: 200px;
 
       button {
         cursor: pointer;
@@ -37,7 +36,6 @@
         color: #fff;
         padding: 5px 10px;
         border: none;
-        margin: 0 5px;
         font-size: 14px;
         border-radius: 50%;
         position: relative;
@@ -45,10 +43,6 @@
         align-items: center;
         justify-content: center;
 
-        img {
-          width: 16px;
-          height: 16px;
-        }
       }
     }
 
@@ -92,14 +86,13 @@
 .slide-five {
         display: flex;
         flex-direction: column;
-        height: auto;
+        height: 100%;
         row-gap: 20px;
-        width: 90%;
-
+        width: 400px;
         background-color: #0194E6;
         padding: 30px;
         border-radius: 20px;
-
+        justify-content: flex-start;
         p {
           color: white;
         }
@@ -108,18 +101,17 @@
           display: flex;
           flex-direction: column;
           justify-content: space-between;
-          height: 100%;
           row-gap: 20px;
-
+          align-items: center;
+          height: 100%;
           li {
             list-style: none;
             display: flex;
             justify-content: space-between;
             width: 100%;
-
             &:nth-child(1) {
-              flex-direction: row;
-              column-gap: 15px;
+              flex-direction: column;
+              row-gap: 15px;
 
               p {
                 font-weight: 500;

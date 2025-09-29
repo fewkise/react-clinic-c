@@ -1,0 +1,36 @@
+.sectio-one-All-copy {
+    width: 95%;
+    position: relative;
+    margin-top: -17%;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+.for-top {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+    div:nth-child(1){
+        height: 300px;
+
+        font-size: 30px;
+        font-weight: 500;
+        
+    }
+    div {
+        padding: 40px;
+        background-color: #DCF0FF;
+        border-radius: 30px;
+        width: 50%;
+        height: 100%;
+    }
+}
+.sectio-one-All-copy {
+    justify-content: flex-end;
+    padding-bottom: 5rem;
+    width: 100%;
+}
+.section-one-copy {
+    .sectio-one-All-copy {
+        width: 95%;
+    }
+}
