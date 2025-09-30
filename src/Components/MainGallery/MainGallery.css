@@ -1,0 +1,19 @@
+.for-top {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+    div:nth-child(1){
+        height: 300px;
+
+        font-size: 30px;
+        font-weight: 500;
+        
+    }
+    div {
+        padding: 40px;
+        background-color: #DCF0FF;
+        border-radius: 30px;
+        width: 50%;
+        height: 100%;
+    }
+}

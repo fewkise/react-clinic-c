@@ -179,14 +179,19 @@
                     align-items: flex-start;
                 }
                 input:focus {
-                outline: none; /* Removes the default outline */
+                outline: none;
                 }
                 input {
-                    height: 10rem;
-                    width: 27rem;
-                    border: none;
-                    border: 2px solid #80C2FF;
-                    border-radius: 10px;
+                height: 10rem;
+                width: 27rem;
+                border: none;
+                border: 2px solid #80C2FF;
+                border-radius: 10px;
+                padding-left: 2rem;
+                padding-bottom: 6rem; 
+                text-align: left;
+                box-sizing: border-box; 
+                vertical-align: top; 
                 }
                 button {
                     background-color: #0089ED;

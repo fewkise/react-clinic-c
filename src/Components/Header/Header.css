@@ -12,6 +12,21 @@
     row-gap: 20px;
     align-self: left;
     width: 350px;
+    ul:nth-child(2){
+        li {
+        display: flex;
+        flex-direction: column;
+    }
+    }
+
+    
+        hr {
+        border: none;
+        width: 100%;
+        height: 3px;
+        border-radius: 10px;
+        background-color: #81C3FF;
+    }
     ul:nth-child(1){
         width: 50%;
         padding-bottom: 20px;

@@ -6,6 +6,8 @@ import Section10 from './Section10/Section10'
 import Section11 from './Section11/Section11'
 import Section12 from './Section12/Section12'
 import Section13 from './Section13/Section13'
+import Section5 from '../Main/Section5/Section5'
+import Footer from '../Footer/Footer'
 const MainCourse = () => {
   return (
     <div className='main-course-all'>
@@ -15,6 +17,8 @@ const MainCourse = () => {
       <Section11/>
       <Section12/>
       <Section13/>
+      <Section5/>
+      <Footer/>
     </div>
   )
 }

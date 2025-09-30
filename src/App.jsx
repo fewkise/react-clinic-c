@@ -8,6 +8,7 @@ import InformationPage from './Pages/InformationPage/InformationPage'
 import ReviewsPage from './Pages/ReviewsPage/ReviewsPage'
 import DocumentsForDoctors from './Pages/DocumentsForDoctors/DocumentsForDoctors'
 import CoursesAllPage from './Pages/CoursesAllPage/CoursesAllPage'
+import GalleryPage from './Pages/GalleryPage/GalleryPage'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/Feedback' element={<ReviewsPage/>}> </Route>
         <Route path='/Clinic' element={<DocumentsForDoctors/>}> </Route>
         <Route path='/Courses' element={<CoursesAllPage/>}> </Route>
+        <Route path='/Gallery' element={<GalleryPage/>}> </Route>
       </Routes>
     
     
